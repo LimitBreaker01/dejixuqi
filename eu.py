@@ -45,8 +45,8 @@ PASSWORD = os.environ["PASSWORD"]  # 密码
 # 'error': '101.0 above free usage limit 100 per day and no balance', 
 # 'requestId': '7690c065-70e0-4757-839b-5fd8381e65c7'
 # }
-USERID = os.environ.get("USERID", "arun56")
-APIKEY = os.environ.get("APIKEY", "wMjXmBIcHcdYqO2RrsVN")
+USERID = os.environ.get("USERID")
+APIKEY = os.environ.get("APIKEY")
 
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
