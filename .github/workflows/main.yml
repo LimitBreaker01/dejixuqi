@@ -2,7 +2,7 @@ name: Renew
 
 on:
   schedule:
-    - cron: "35 6 * * 2,4,6"
+  //  - cron: "35 6 * * 2,4,6"
   workflow_dispatch:
 
 jobs:
